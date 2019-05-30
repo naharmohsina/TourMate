@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="5dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/temp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="qwe"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/hum"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="qwe"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/wind"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="qwe"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/description"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="qwe"/>
+
+</LinearLayout>

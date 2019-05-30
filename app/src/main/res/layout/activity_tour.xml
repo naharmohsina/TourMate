@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TourActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD EVENT"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/addeventButton"
+        android:background="#B2FF59"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="2dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addeventButton"
+        android:id="@+id/listViewTourEvent"></ListView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateEvent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Travel Destination"
+        android:id="@+id/travelDestination"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Estimated Budget"
+        android:inputType="number"
+        android:id="@+id/estimatedBudet"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="From Date"
+        android:id="@+id/fromDate"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="To Date"
+        android:id="@+id/todate"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/createEventBT"
+        android:background="#0277BD"
+        android:textColor="#FFFFFF"
+        android:text="CREATE Event"/>
+
+
+
+
+</LinearLayout>
